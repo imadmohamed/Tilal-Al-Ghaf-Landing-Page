@@ -59,20 +59,21 @@ const Gallary = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <div className="relative inline-block">
-
+        <div className="relative inline-block cursor-pointer group">
           <img 
             src="/Rectangle 654.png" 
             alt="Button background" 
-            className="h-14 w-auto"
+            className="h-14 w-auto transition duration-300 group-hover:opacity-80"
           />
 
           <img
             src="/DOWNLOAD RENDERS.png"
             alt="Download Renders"
-            className="absolute inset-0 h-8 w-auto m-auto"
-          />
-        </div>
+            className="absolute inset-0 h-8 w-auto m-auto pointer-events-none"
+          />  
+      </div>
+
+
       </motion.div>
     </div>
   );

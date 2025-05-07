@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const Plagette = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden flex flex-col items-start p-4 md:p-16 space-y-4 md:space-y-6">
-      {/* Main Title - Responsive but maintains original max size */}
+
       <motion.img
         src='/PLAGETTE 32Tilal Al Ghaf.png'
         alt='Plagette'
@@ -15,7 +15,7 @@ const Plagette = () => {
         transition={{ duration: 0.6 }}
       />
 
-      {/* Subtitle - Responsive but maintains original max size */}
+
       <motion.img
         src='/plagette32-by-majid.png'
         alt='Plagette'
@@ -26,7 +26,7 @@ const Plagette = () => {
         transition={{ duration: 0.6, delay: 0.2 }}
       />
 
-      {/* Floating Image 1 - Original size preserved */}
+
       <motion.img
         src="/plagette921.png"
         alt="Group 921"
@@ -37,7 +37,7 @@ const Plagette = () => {
         transition={{ duration: 0.8, delay: 0.4 }}
       />
 
-      {/* Floating Image 2 - Original size preserved */}
+
       <motion.img
         src="/Group 921.png"
         alt="Group 921"
@@ -48,7 +48,7 @@ const Plagette = () => {
         transition={{ duration: 1, delay: 0.6 }}
       />
 
-      {/* Info Cards - Original image sizes preserved */}
+
       <motion.div 
         className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-16 w-full z-30 mt-6 md:mt-10"
         initial={{ opacity: 0 }}
