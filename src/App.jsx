@@ -7,6 +7,9 @@ import Amenities from './Pages/Amenities';
 import Loaction from './Pages/Loaction';
 import Payment from './Pages/Payment';
 import Video from './Pages/Video';
+import Brocher from './Pages/Brochure';
+import Signup from './Pages/Signup';
+import Register from './Pages/Register';
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
       <Loaction />
       <Payment />
       <Video />
+      <Brocher />
+      <Signup />
+      <Register />
     </div>
   );
 };
