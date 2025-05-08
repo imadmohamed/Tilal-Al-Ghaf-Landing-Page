@@ -4,11 +4,11 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      
+
       {/* Background image */}
-      <motion.img 
-        src="/1.png" 
-        alt="Background image" 
+      <motion.img
+        src="/1.png"
+        alt="Background image"
         className="h-full w-full object-cover"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -56,31 +56,31 @@ const Hero = () => {
       />
 
       {/* Buttons & Group 2 */}
-      <motion.div 
+      <motion.div
         className="absolute bottom-4 right-4 md:bottom-10 md:right-15 flex flex-col items-end space-y-2 md:space-y-4 z-20"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 1, duration: 0.8 }}
       >
-        <img 
-          src="/Group 2.png" 
-          alt="Group 2" 
-          className="w-[120px] h-auto mb-0 md:w-[600px]" 
+        <img
+          src="/Group 2.png"
+          alt="Group 2"
+          className="w-[120px] h-auto mb-0 md:w-[600px]"
         />
 
         <button className="px-6 py-3 md:px-12 md:py-5 bg-white/10 border border-none rounded-3xl backdrop-blur-md hover:bg-white/20 hover:opacity-100 transition duration-300">
-          <img 
-            src="/DOWNLOAD BROCHURE.png" 
-            alt="Download Brochure" 
-            className="h-4 md:h-6" 
+          <img
+            src="/DOWNLOAD BROCHURE.png"
+            alt="Download Brochure"
+            className="h-4 md:h-6"
           />
         </button>
 
         <button className="px-6 py-3 md:px-12 md:py-5 bg-white/10 border border-none rounded-3xl backdrop-blur-md hover:bg-white/20 hover:opacity-100 transition duration-300">
-          <img 
-            src="/REGISTER NOW.png" 
-            alt="Register Now" 
-            className="h-4 md:h-6" 
+          <img
+            src="/REGISTER NOW.png"
+            alt="Register Now"
+            className="h-4 md:h-6"
           />
         </button>
       </motion.div>
