@@ -99,4 +99,4 @@ const Plagette = () => {
   )
 }
 
-export default Plagette
+export default Plagette;
