@@ -18,7 +18,7 @@ const Choose = () => {
       
       <img
         src="/Group 1265.png"
-        alt="Group 1265"
+        alt="Group"
         className="absolute right-0 top-1/2 h-auto z-20"
         style={{
           width: '2600px',
