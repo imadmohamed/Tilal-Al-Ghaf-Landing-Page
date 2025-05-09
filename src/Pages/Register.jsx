@@ -67,7 +67,7 @@ const Register = () => {
         <motion.div className='absolute top-[1750px] w-[520px] h-[80px] left-[190px]' variants={item}>
           <input
             type="text"
-            placeholder="Name*"
+            placeholder="test Name*"
             className="w-full h-full pl-6 text-gray-800 bg-transparent border-none focus:outline-none 
                       placeholder:text-2xl placeholder:font-light placeholder:opacity-80"
             style={{
