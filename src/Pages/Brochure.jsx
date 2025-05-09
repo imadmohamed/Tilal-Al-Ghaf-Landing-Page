@@ -102,7 +102,7 @@ const Brochure = () => {
                 }}
               >
                 <input
-                  type={field === 'Email' ? 'email' : field === '+971 __ ___ ____ ____' ? 'tel' : 'text'}
+                  type={field === 'email' ? 'email' : field === '+971 __ ___ ____ ____' ? 'tel' : 'text'}
                   id={field}
                   name={field}
                   className="w-full h-15 text-lg border border-gray-300 px-6 focus:outline-none focus:ring-2 focus:ring-[#92d0c9]"
