@@ -90,7 +90,7 @@ const Brochure = () => {
           onSubmit={(e) => e.preventDefault()}
         >
           <div className="space-y-6">
-            {['name', 'Email', '+971 __ ___ ____ ____'].map((field, i) => (
+            {['name', 'email', '+971 __ ___ ____ ____'].map((field, i) => (
               <motion.div
                 key={field}
                 initial={{ opacity: 0, y: 20 }}
