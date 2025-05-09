@@ -193,12 +193,12 @@ const Register = () => {
         variants={item}
       />
 
-      <motion.img
-        src='+971 56 604 5684.png'
-        alt='contact us'
-        className='absolute top-[2650px] w-[450px] h-[50px] left-[890px]'
+      <motion.p
+        className="absolute top-[2650px] left-[895px] text-[25px] font-sans w-[850px] h-[50px] flex items-center"
         variants={item}
-      />
+        >
+        +971 56 604 5684
+        </motion.p>
     </motion.div>
   )
 }
