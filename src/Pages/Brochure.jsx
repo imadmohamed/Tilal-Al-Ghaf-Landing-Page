@@ -90,7 +90,7 @@ const Brochure = () => {
           onSubmit={(e) => e.preventDefault()}
         >
           <div className="space-y-6">
-            {['name', 'email', '+971 __ ___ ____ ____'].map((field, i) => (
+            {['name', 'Email', '+971 __ ___ ____ ____'].map((field, i) => (
               <motion.div
                 key={field}
                 initial={{ opacity: 0, y: 20 }}
@@ -102,7 +102,7 @@ const Brochure = () => {
                 }}
               >
                 <input
-                  type={field === 'email' ? 'email' : field === '+971 __ ___ ____ ____' ? 'tel' : 'text'}
+                  type={field === 'Email' ? 'email' : field === '+971 __ ___ ____ ____' ? 'tel' : 'text'}
                   id={field}
                   name={field}
                   className="w-full h-15 text-lg border border-gray-300 px-6 focus:outline-none focus:ring-2 focus:ring-[#92d0c9]"
